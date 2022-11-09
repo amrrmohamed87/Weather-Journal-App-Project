@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('img/bg9.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  .holder-header{
+    color: white;
+    font-size: 25px;
+    background-color: #0a1865;
+    padding: 10px;
+    text-align: center;
+  }
+  #zip,#feelings,#generate{
+    background: #17053866;
+    margin: 40px auto 0px;
+    width: 800px;
+    height: 28px;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+    border: none;
+    resize: none;
+    color: white;
+    font-size: 20px;
+  }
+  #zip::placeholder{
+    color: white;
+  }
+  #feelings::placeholder{
+    color: white;
+  }
+  #error{
+    background-color: white;
+    border-radius: 1px 0px 30px 30px;
+    text-align: center;
+    display: block;
+    margin: 0px auto 15px;
+    width: 25%;
+  }
+  #generate{
+    margin-top: 30px;
+    width: 400px;
+    background-color: #0a1865;
+    cursor: pointer;
+  }
+  #holder-entry{
+    width: 50%;
+    background-color: #07133340;
+    border-radius: 20px;
+    margin: 150px auto;
+    height: 208px;
+    border: 1px #17053866 ;
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  .title{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  #entryHolder{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-rows: 60%;
+    grid-template-columns: 50% 50%;
+    font-size: 1.5vw;
+  }
+  #content{
+    grid-column: 1 / -1;
+  }
+  #temp,#city{
+    font-size: 4vw;
+  }
